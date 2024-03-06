@@ -1,6 +1,7 @@
 #include <algorithm>
 #include <iostream>
 #include<windows.h>
+using namespace std;
 
 class unit
 {
@@ -80,7 +81,7 @@ int main()
         Sleep(800);
         std::cout << "\n";
         std::cout << "Do you want to continue? y/n\n";
-        std::cin >> should_continue
+        std::cin >> should_continue;
     } while (should_continue == 'y');
 
         // good game
