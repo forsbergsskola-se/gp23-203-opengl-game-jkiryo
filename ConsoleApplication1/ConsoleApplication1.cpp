@@ -112,7 +112,7 @@ int main()
         // good game
         cout << "Thanks for playing!" << std::endl;
 
-        return 0;
+       
 }
 
 
