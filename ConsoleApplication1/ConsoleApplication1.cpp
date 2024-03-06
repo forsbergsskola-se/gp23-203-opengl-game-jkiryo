@@ -89,7 +89,7 @@ int main()
             enemy = create_enemy();
         }
 
-        else // (if !enemy->is_dead())
+        else // (if !enemy->is_dead
         {
             // enemy's turn
 
@@ -97,6 +97,7 @@ int main()
 
             enemy->attack(*hero);
         }
+
 
         // choice to continue
 
@@ -110,9 +111,9 @@ int main()
     } while (should_continue == 'y');
 
         // good game
-        cout << "Thanks for playing!" << std::endl;
+        cout << "Thanks for playing!" << endl;
 
-       
+        return 0;
 }
 
 
