@@ -118,7 +118,6 @@ int main()
 
 
 //What i will try to do:
-// - make the game continue after 2 hits?
 // - Add a block function with stamina of 5 and the block costs 1 stamina.
 // - also display stamina with health.
 // - Super Attack that does 3 damage = total health of the enemy
