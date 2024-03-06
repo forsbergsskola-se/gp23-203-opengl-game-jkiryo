@@ -110,5 +110,5 @@ int main()
     } while (should_continue == 'y');
 
         // good game
-        std::cout << "Thanks for playing!" << std::endl;
+        cout << "Thanks for playing!" << std::endl;
 }
