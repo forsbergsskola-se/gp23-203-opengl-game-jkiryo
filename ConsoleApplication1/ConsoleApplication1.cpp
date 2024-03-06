@@ -112,3 +112,10 @@ int main()
         // good game
         cout << "Thanks for playing!" << std::endl;
 }
+
+//What i will try to do:
+// - Add a block function with stamina of 5
+// - Super Attack that does 3 damage = total health of the enemy
+// - health potion for the player if he wants to drink it during the game.
+// - Maybe a Boss/Super Enemy fight at the end.
+// - 
