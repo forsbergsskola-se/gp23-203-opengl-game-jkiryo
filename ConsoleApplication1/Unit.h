@@ -29,6 +29,12 @@ public:
         other.takeDamage(1);
     }
 
+    //Take Damage method
+    virtual void takeDamage(int damage)
+    {
+        health_ -= damage;
+    }
+
     //Checking if the unit is dead
     bool is_dead() const { return health_ <= 0; }
 
@@ -41,12 +47,6 @@ public:
         health_ = clamp(value, 0, 100);
 
         cout << name_ << " now has \033[1;34m" << health_ << " Health\033[0m.\n";
-    }
-
-    //Take Damage method
-    virtual void takeDamage(int damage)
-    {
-        health_ -= damage;
     }
 
 protected:

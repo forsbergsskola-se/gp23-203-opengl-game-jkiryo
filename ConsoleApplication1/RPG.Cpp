@@ -36,11 +36,8 @@ int main()
 {
     // initialization
     Unit* hero = create_hero();
-
     Unit* enemy = create_enemy();
-
     int killed_monster_count{};
-
     char should_continue;
 
     // game loop
@@ -51,20 +48,16 @@ int main()
 
         hero->attack(*enemy);
 
-        cout << "The attack was very effective!" << endl; // Log message for effective attack
+        cout << "The attack was very effective!" << endl; // Message when you fight a skeleton.
 
         Sleep(800);
 
         if (enemy->is_dead())
         {
             // spawn new enemy
-
             delete enemy;
-
             cout << "\033[1;36mYou killed a total of " << ++killed_monster_count << " Monsters!\033[0m\n";
-
             cout << "\n";
-
             enemy = create_enemy();
         }
 
