@@ -3,6 +3,8 @@
 #include <Windows.h>
 #include <iostream>
 #include "ConsoleApplication1.cpp"
+#include "Skeleton.h"
+
 
 using namespace std;
 
