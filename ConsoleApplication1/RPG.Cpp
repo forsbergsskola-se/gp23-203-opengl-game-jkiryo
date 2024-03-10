@@ -54,6 +54,8 @@ int main()
         {
             // spawn new enemy
             delete enemy;
+
+            //Showed how many monsters the players have killed
             cout << "\033[1;36mYou killed a total of " << ++killed_monster_count << " Monsters!\033[0m\n";
             cout << "\n";
             enemy = create_enemy();

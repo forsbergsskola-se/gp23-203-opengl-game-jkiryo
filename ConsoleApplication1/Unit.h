@@ -29,12 +29,9 @@ public:
 
         other.takeDamage(1);
 
+        //Shows the health of the Enemy/Player after every attack
         cout << other.name_ << " Health " << ": " << other.get_health() << endl;
 
-        if (other.is_dead()) 
-        {
-            
-        }
     }
 
     //Take Damage method
