@@ -47,9 +47,7 @@ int main()
         Sleep(400);
 
         hero->attack(*enemy);
-
-        cout << "The attack was very effective!" << endl; // Message when you fight a skeleton.
-
+        
         Sleep(800);
 
         if (enemy->is_dead())

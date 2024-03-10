@@ -26,7 +26,15 @@ public:
     void attack(Unit& other)
     {
         cout << name_ << " \033[1;31mattacks\033[0m " << other.name_ << ".\n";
+
         other.takeDamage(1);
+
+        cout << other.name_ << " Health " << ": " << other.get_health() << endl;
+
+        if (other.is_dead()) 
+        {
+            
+        }
     }
 
     //Take Damage method
