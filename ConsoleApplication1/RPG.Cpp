@@ -51,6 +51,8 @@ int main()
 
         hero->attack(*enemy);
 
+        cout << "The attack was very effective!" << endl; // Log message for effective attack
+
         Sleep(800);
 
         if (enemy->is_dead())
@@ -90,5 +92,6 @@ int main()
 
     // good game
     cout << "Thanks for playing!" << endl;
+
 
 }
