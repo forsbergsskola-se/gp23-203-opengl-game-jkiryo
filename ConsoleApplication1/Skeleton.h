@@ -1,6 +1,8 @@
 #pragma once
 #include "unit.h"
 
+using namespace std;
+
 class Skeleton : public Unit
 {
 public:

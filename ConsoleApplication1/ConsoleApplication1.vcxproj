@@ -130,7 +130,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="Infected.cpp" />
     <ClCompile Include="RPG.Cpp" />
     <ClCompile Include="Skeleton.cpp" />
