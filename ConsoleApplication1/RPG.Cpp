@@ -1,29 +1,43 @@
-#include "Unit.h"
+
 #include <algorithm>
 #include <Windows.h>
 #include <iostream>
-#include "ConsoleApplication1.cpp"
 #include "Skeleton.h"
+#include "Infected.h"
+#include "Unit.h"
 
 
 using namespace std;
 
-unit* create_hero()
+Unit* create_hero()
 {
-    return new unit("\033[1;33mHero\033[0m", 100);
+    return new Unit("\033[1;33mHero\033[0m", 100);
 }
 
-unit* create_enemy()
+Unit* create_enemy()
 {
-    return new unit("Enemy", 3);
+    srand(time(nullptr));
+
+    int enemyType = rand() % 2;
+
+    if (enemyType == 0) 
+    {
+
+        return new Skeleton; // Return a Skeleton object
+    }
+    else 
+    {
+        return new Infected(); // Return an Infected object
+    }
+   
 }
 
 int main()
 {
     // initialization
-    unit* hero = create_hero();
+    Unit* hero = create_hero();
 
-    unit* enemy = create_enemy();
+    Unit* enemy = create_enemy();
 
     int killed_monster_count{};
 
@@ -77,5 +91,4 @@ int main()
     // good game
     cout << "Thanks for playing!" << endl;
 
-    return 0;
 }
