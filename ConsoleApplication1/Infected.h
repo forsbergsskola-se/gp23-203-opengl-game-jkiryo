@@ -1,14 +1,17 @@
 #pragma once
-
 #include "Unit.h"
 
 using namespace std;
 
 class Infected : public Unit //Inheriting from the unit class
 {
+    bool revived = true;
 
 public:
-    Infected() : Unit("Infected", 2), revived(false) {}
+    Infected() : Unit("Infected", 2), revived(false) 
+    {
+        cout << "A Skeleton \033[1;32mSpawned\033[0m with \033[1;34m50 Health\033[0m.\n";
+    }
 
     //overriding the takeDamage method
     virtual void takeDamage(int damage) override 
@@ -17,7 +20,7 @@ public:
         Unit::takeDamage(damage);
 
         //Checking if the infected enemy is dead or not
-        if (is_dead() && !Risen) 
+        if (this->is_dead() && !Risen) 
         {
 
             Risen(); //The infected rises from th dead
@@ -25,7 +28,6 @@ public:
     }
 
 private:
-    bool revived;
 
     void Risen() //Infected rises
 {
