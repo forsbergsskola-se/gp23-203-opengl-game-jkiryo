@@ -131,10 +131,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="Infected.cpp" />
     <ClCompile Include="RPG.Cpp" />
     <ClCompile Include="Skeleton.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Infected.h" />
     <ClInclude Include="Skeleton.h" />
     <ClInclude Include="Unit.h" />
   </ItemGroup>
