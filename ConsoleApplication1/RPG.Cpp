@@ -65,6 +65,7 @@ int main()
         // choice to continue
 
         Sleep(800);
+
         cout << "\n";
 
         cout << "Do you want to continue? y/n\n";
