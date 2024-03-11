@@ -9,11 +9,13 @@
 
 using namespace std;
 
+//Create a hero for the player
 Unit* create_hero()
 {
     return new Unit("\033[1;33mHero\033[0m", 100);
 }
 
+//Create a random enemy.
 Unit* create_enemy()
 {
     srand(time(nullptr));
@@ -23,11 +25,11 @@ Unit* create_enemy()
     if (enemyType == 0) 
     {
 
-        return new Skeleton; // Return a Skeleton object
+        return new Skeleton; // Spawns a Skeleton object
     }
     else 
     {
-        return new Infected(); // Return an Infected object
+        return new Infected(); // Spawns an Infected object
     }
    
 }
