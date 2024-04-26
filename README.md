@@ -74,6 +74,7 @@ protected:
     //health of the unit
     int health_;
 };
+```
 
 This is the CPP file that uses headers from different kind of enemies and also unit headers to make the game work as required.
 i used both cpp and header usage for the unit code to work properly so it can be included in the cpp and get called upon when required.
@@ -166,6 +167,7 @@ int main()
     // good game
     cout << "Thanks for playing!" << endl;
 }
+```
 
 
 
