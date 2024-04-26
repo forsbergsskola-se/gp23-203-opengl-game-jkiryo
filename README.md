@@ -1,8 +1,11 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/UqIUAt8b)
 
-Project Descripton:
+**Project Descripton:**
 
 This is a RPG Project that has a player fighting 2 different kinds of enemies with different rules coded to them. There is a Infected header that makes the infected enemy revive after its death. The other enemy is a skeleton that takes double damage from the player when attacked. You can play until the players health is at zero or if you want to quit there is always an output after each enemy killed that says "do you want to continue?" if you deciede to continue the game. continues with randomizing the next enemy (infected or skeleton) and if you want to quit the game ends and gives you an output that says "thanks for playing".
+
+
+**Unit Class**
 
 This is the Unit class i was using for this project this class.
 
@@ -75,7 +78,7 @@ protected:
     int health_;
 };
 ```
-
+**CPP**
 This is the CPP file that uses headers from different kind of enemies and also unit headers to make the game work as required.
 i used both cpp and header usage for the unit code to work properly so it can be included in the cpp and get called upon when required.
 
