@@ -16,6 +16,9 @@ This is what it is used for and what value it stores:
 - Method for a death check
 - Method for get and set health
 
+
+I used const correctness on the _name member and also for the _health member so it cannot be modified or changed when initialized.
+I used encapsulation also on the _name member and the _health member so it makes them protected and it makes access with them outside of the unit class restricted and prevents them from being modified.
 ```
 #pragma once
 #include <algorithm>
