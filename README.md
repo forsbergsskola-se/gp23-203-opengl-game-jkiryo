@@ -9,7 +9,7 @@ This is the Unit class i was using for this project this class i used both cpp a
 #include <algorithm>
 #include <iostream>
 #using namespace std;
-#class Unit
+#class Unit 
 {
 public:
 
