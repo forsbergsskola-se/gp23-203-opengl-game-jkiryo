@@ -85,8 +85,6 @@ i used both cpp and header usage for the unit code to work properly so it can be
 #include "Skeleton.h"
 #include "Infected.h"
 #include "Unit.h"
-
-
 using namespace std;
 
 //Create a hero for the player
@@ -167,10 +165,7 @@ int main()
 
     // good game
     cout << "Thanks for playing!" << endl;
-
-
 }
-```
 
 
 
