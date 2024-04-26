@@ -3,7 +3,11 @@
 Project Descripton:
 This is a RPG Project that has a player fighting 2 different kinds of enemies with different rules coded to them. There is a Infected header that makes the infected enemy revive after its death. The other enemy is a skeleton that takes double damage from the player when attacked. You can play until the players health is at zero or if you want to quit there is always an output after each enemy killed that says "do you want to continue?" if you deciede to continue the game 
 continues with randomizing the next enemy (infected or skeleton) and if you want to quit the game ends and gives you an output that says "thanks for playing".
-
+{
+#pragma once
+#include <algorithm>
+#include <iostream>
+using namespace std;
 class Unit
 {
 public:
@@ -59,10 +63,6 @@ protected:
 
     //health of the unit
     int health_;
-}; 
+};
+};
 
-
-
-
-Here is an screenshot!
-<img width="1062" alt="rpg bild" src="https://github.com/forsbergsskola-se/gp23-203-opengl-game-jkiryo/assets/143487429/47930b6e-2aa1-42f5-83cc-48d189e7804f">
