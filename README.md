@@ -5,11 +5,12 @@ This is a RPG Project that has a player fighting 2 different kinds of enemies wi
 
 This is the Unit class i was using for this project this class i used both cpp and header usage for the unit code to work properly.
 
+// Headers for the unit
 #pragma once
 #include <algorithm>
 #include <iostream>
-#using namespace std;
-#class Unit 
+using namespace std;
+class Unit
 {
 public:
 
@@ -65,7 +66,5 @@ protected:
     //health of the unit
     int health_;
 };
-
-
 
 
