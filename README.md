@@ -180,5 +180,6 @@ int main()
 ```
 
 
+<img width="1062" alt="rpg bild" src="https://github.com/forsbergsskola-se/gp23-203-opengl-game-jkiryo/assets/143487429/c7ec0f6b-1805-4054-ba9c-f6ed929cf53e">
 
 
